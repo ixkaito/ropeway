@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.summary     = 'A toolkit of support libraries and Ruby core extensions extracted from the Ropeway framework.'
   s.description = 'A toolkit of support libraries and Ruby core extensions extracted from the Ropeway framework. Rich support for multibyte strings, internationalization, time zones, and testing.'
 
-  s.required_ruby_version = '>= 2.2.2'
+  s.required_ruby_version = '>= 1.9.3'
 
   s.license = 'MIT'
 
@@ -25,5 +25,4 @@ Gem::Specification.new do |s|
   s.add_dependency 'tzinfo',     '~> 1.1'
   s.add_dependency 'minitest',   '~> 5.1'
   s.add_dependency 'thread_safe','~> 0.3', '>= 0.3.4'
-  s.add_dependency 'concurrent-ruby', '~> 0.9.0'
 end

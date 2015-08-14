@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.summary     = 'A toolkit for building modeling frameworks (part of Ropeway).'
   s.description = 'A toolkit for building modeling frameworks like Inertial Record. Rich support for attributes, callbacks, validations, serialization, internationalization, and testing.'
 
-  s.required_ruby_version = '>= 2.2.2'
+  s.required_ruby_version = '>= 1.9.3'
 
   s.license = 'MIT'
 

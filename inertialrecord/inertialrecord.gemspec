@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.summary     = 'Object-relational mapper framework (part of Ropeway).'
   s.description = 'Databases on Ropeway. Build a persistent domain model by mapping database tables to Ruby classes. Strong conventions for associations, validations, aggregations, migrations, and testing come baked-in.'
 
-  s.required_ruby_version = '>= 2.2.2'
+  s.required_ruby_version = '>= 1.9.3'
 
   s.license = 'MIT'
 
@@ -24,5 +24,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'inertialsupport', version
   s.add_dependency 'inertialmodel',   version
 
-  s.add_dependency 'arel', '7.0.0.alpha'
+  s.add_dependency 'arel', '~> 6.0'
 end

@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.summary     = 'Tools for creating, working with, and running Ropeway applications.'
   s.description = 'Ropeway internals: application bootup, plugins, generators, and rake tasks.'
 
-  s.required_ruby_version = '>= 2.2.2'
+  s.required_ruby_version = '>= 1.9.3'
 
   s.license = 'MIT'
 
@@ -28,7 +28,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rake', '>= 0.8.7'
   s.add_dependency 'thor', '>= 0.18.1', '< 2.0'
-  s.add_dependency 'method_source'
 
   s.add_development_dependency 'inertiaview', version
 end
