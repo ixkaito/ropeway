@@ -1,9 +1,6 @@
-version = ARGV.pop
+# Usage: ruby install.rb
 
-if version.nil?
-  puts "Usage: ruby install.rb version"
-  exit(64)
-end
+version = File.read(File.expand_path('../ROPEWAY_VERSION', __FILE__)).strip
 
 %w( inertialsupport inertialmodel inertialrecord inertiapack inertiaview inertiamailer ropeties inertialjob ).each do |framework|
   puts "Installing #{framework}..."
