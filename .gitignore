@@ -1,0 +1,21 @@
+# Don't put *.swp, *.bak, etc here; those belong in a global ~/.gitignore.
+# Check out https://help.github.com/articles/ignoring-files for how to set that up.
+
+debug.log
+.Gemfile
+/.bundle
+/.ruby-version
+pkg
+/dist
+/doc/rdoc
+/*/doc
+/*/test/tmp
+# /activerecord/sqlnet.log
+# /activemodel/test/fixtures/fixture_database.sqlite3
+# /activesupport/test/fixtures/isolation_test
+/ropeties/test/500.html
+/ropeties/test/fixtures/tmp
+/ropeties/test/initializer/root/log
+/ropeties/doc
+/ropeties/tmp
+/guides/output
