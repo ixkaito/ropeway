@@ -19,3 +19,5 @@ pkg
 /ropeties/doc
 /ropeties/tmp
 /guides/output
+
+.DS_Store
